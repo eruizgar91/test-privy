@@ -14,7 +14,7 @@ function MyApp({Component, pageProps}: AppProps) {
     const configureChainsConfig = configureChains(
         [polygonMumbai, arbitrumGoerli],
         [
-            infuraProvider({ apiKey: "a1e73e78db5747329494fc1a454295a2" }),
+            infuraProvider({ apiKey: process.env.API_KEY }),
         ]
     )
 
