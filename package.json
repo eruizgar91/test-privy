@@ -9,14 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@nevermined-io/catalog": "1.7.1",
+    "@privy-io/react-auth": "^1.28.3",
+    "@privy-io/wagmi-connector": "0.0.11",
     "@types/node": "20.3.2",
     "@types/react": "18.2.14",
     "@types/react-dom": "18.2.6",
+    "@wagmi/core": "0.10.16",
     "eslint": "8.43.0",
     "eslint-config-next": "13.4.7",
     "next": "13.4.7",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "5.1.6"
+    "typescript": "5.1.6",
+    "wagmi": "0.12.18"
   }
 }
